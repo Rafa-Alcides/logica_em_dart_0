@@ -1,6 +1,7 @@
 void main() {
-  final celsius = 32;
+  const celsius = 32;
 
-  final fahrenheit = ((9 * celsius) + 160) / 5;
+  const fahrenheit = ((9 * celsius) + 160) / 5;
+  // ignore: avoid_print
   print(fahrenheit);
 }
