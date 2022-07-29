@@ -3,5 +3,5 @@ void main() {
 
   const fahrenheit = ((9 * celsius) + 160) / 5;
   // ignore: avoid_print
-  print(fahrenheit);
+  print("$fahrenheit°F");
 }
