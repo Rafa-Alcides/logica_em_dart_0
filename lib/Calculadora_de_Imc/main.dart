@@ -4,5 +4,5 @@ void main() {
 
   const imc = peso / (altura * altura);
   // ignore: avoid_print
-  print(imc);
+  print(imc.toStringAsFixed(2));
 }
